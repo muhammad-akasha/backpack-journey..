@@ -1,0 +1,349 @@
+@media (max-width: 984px) {
+  :root {
+    --p-left: 15px;
+  }
+  .navbar {
+    padding: 10px 0px;
+  }
+  .hero-section {
+    height: 540px;
+  }
+  .slide-img {
+    height: 490px;
+  }
+  .textjourney {
+    position: relative;
+    top: 0px;
+  }
+  .textjourney h1 {
+    font-size: 75px;
+  }
+  .quote {
+    position: relative;
+    top: 36px;
+    left: 15px;
+  }
+  .tour-text-box span {
+    font-size: 16px;
+  }
+  .text-exp > :nth-child(1) {
+    margin-left: 0px;
+  }
+  .text-exp {
+    position: relative;
+    top: -30px;
+  }
+  .text-exp h2 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 35px;
+  }
+  .explore-img {
+    flex-direction: column;
+    width: 100%;
+  }
+  .bg-img-explore {
+    background: none;
+    flex-direction: column;
+    height: fit-content;
+    padding: 0 var(--p-left);
+  }
+  .bg-img-explore h2 {
+    font-size: 25px;
+  }
+  .explore-img {
+    flex-direction: column;
+  }
+  .explore-img :nth-child(2) {
+    margin: 10px 0px;
+  }
+  .tour-all-boxes {
+    flex-direction: column;
+    width: 100%;
+  }
+  .tour-text-box {
+    background-color: #c4eeec;
+    margin-left: 0;
+  }
+  .bg-tour-img {
+    background: none;
+    padding: 0 var(--p-left);
+  }
+  .explore-img img {
+    width: 100%;
+    height: 350px;
+    margin-left: 0;
+  }
+  .bg-tour-img {
+    flex-direction: column-reverse;
+    height: fit-content;
+    margin-top: 20px;
+  }
+  .tour-img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .tour-text-box {
+    padding: 10px 20px;
+  }
+  .tour-text-box p {
+    padding: 20px 0px 0px 35px;
+    font-size: 18px;
+  }
+  .strt-journey {
+    padding: 0 var(--p-left);
+  }
+  .strt-journey-box {
+    flex-direction: column;
+  }
+  .listed-market ul {
+    padding: 0px;
+  }
+  .listed-market li {
+    font-size: 14px;
+  }
+  .blog-post h2 {
+    text-align: center;
+  }
+  .bg-strt {
+    height: fit-content;
+    padding: 30px var(--p-left);
+  }
+  .bg-strt-box {
+    width: 100%;
+    padding: 40px 15px;
+  }
+  .bg-strt-box p {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .visit-places {
+    width: 100%;
+  }
+
+  .quote2 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+  }
+  .visit-parent {
+    flex-direction: column;
+  }
+  .footer-sec {
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 30px var(--p-left);
+  }
+  .footer-img {
+    position: relative;
+    top: 0px;
+  }
+  .btn-div {
+    right: 0px;
+  }
+  .foot-text {
+    padding: 0px;
+    text-align: center;
+  }
+  .foot-text h5 {
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .foot-text p {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .last-foot {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-foot :nth-child(1) {
+    text-align: center;
+  }
+  .last-foot span {
+    display: block;
+    margin: 15px 0px;
+  }
+  .footer-img {
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 784px) {
+  .explore-img img {
+    margin: 0 auto;
+    width: 390px;
+  }
+  .explore-img :nth-child(2) {
+    margin: 10px auto;
+  }
+  .tour-section {
+    width: 380px;
+  }
+  .tour-img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .tour-img-place {
+    height: 510px;
+    width: 100%;
+    display: block;
+    margin: 70px auto;
+  }
+  .tour-img-2 {
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+  }
+  .visit-parent {
+    width: 380px;
+    display: block;
+    margin: 0 auto;
+  }
+  /* .tour-all-boxes {
+    flex-direction: column;
+    width: 490px;
+    margin: 0 auto;
+    padding: 50px 0px;
+} */
+}
+
+@media (min-width: 784px) and (max-width: 984px) {
+  :root {
+    --p-left: 100px;
+  }
+  .explore-img {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .explore-img img {
+    width: 360px;
+  }
+  .textjourney h1{
+    font-size: 100px
+  }
+  .text-exp h2 {
+    font-size: 55px;
+}
+  .explore-img :nth-child(2) {
+    margin: 0px auto;
+  }
+  .tour-img {
+    margin-top: 20px;
+    width: 490px;
+  }
+  .tour-all-boxes {
+    flex-direction: column;
+    width: 490px;
+    margin: 0 auto;
+    padding: 50px 0px;
+  }
+  .explore-img :nth-child(2) {
+    margin: 0;
+  }
+  .tour-all-boxes {
+    flex-wrap: wrap;
+    width: 440px;
+    margin: 40px auto;
+    justify-content: center;
+  }
+  .visit-parent {
+    flex-direction: column;
+    width: 520px;
+    margin: 0 auto;
+  }
+  .footer-sec {
+    padding: 40px var(--p-left);
+  }
+  .footer-img {
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 984px) and (max-width: 1232px) {
+  .tour-img-2 {
+    margin-top: 40px;
+  }
+  .tour-img-place {
+    margin-top: 40px;
+}
+
+  .tour-all-boxes p {
+    height: 200px;
+  }
+  .visit-parent {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tour-all-boxes {
+    padding: 100px var(--p-left);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 95%;
+    justify-content: center
+  }
+}
+
+@media (min-width:984px) and (max-width:1080px){
+    .bg-img-explore {
+        background-position: center
+    }
+    .explore-img img {
+        width: 350px;
+        height: 450px;
+        margin-left: 30px;
+    }
+    .explore-img :nth-child(2) {
+        margin: 45px 0px 0px -180px;
+    }
+    .footer-sec {
+        background-color: #1e2227;
+        display: flex;
+        gap: 40px;
+        padding: 0px var(--p-left);
+        flex-wrap: wrap;
+        margin-top: 150px;
+        justify-content: center;
+    }
+    .footer-img {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 50px;
+}
+
+}
+
+@media (max-width:992px){
+    .navbar-toggler{
+        order: -1
+    }
+    .navbar-brand{
+        margin: 0 auto;padding: 0;
+    }
+    .navbar{
+        padding: 10px 5px;background: #000!important;position: relative;
+    }
+    .search::before {
+        display: none
+    }
+    .nav-link{
+        margin: 0px 5px;font-size: 14px
+    }
+    .navbar-toggler{
+        background: #fff;
+        padding: 2px 5px;
+    }
+}
